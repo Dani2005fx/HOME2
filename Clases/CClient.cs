@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace CrudEjemplo.Clases
 {
-    internal class CUsuario
+    internal class CClient
     {
        
     }

@@ -113,7 +113,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\CUsuario.cs" />
+    <Compile Include="Clases\CClient.cs" />
     <Compile Include="Clases\CConexion.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
