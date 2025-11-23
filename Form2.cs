@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CrudEjemplo.Clases;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -58,6 +59,13 @@ namespace CrudEjemplo
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
             Maximizarbtn.Image = CrudEjemplo.Properties.Resources.maxi;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormClient llamar = new FormClient();
+            llamar.Show();
+            this.Hide();
         }
     }
 }
