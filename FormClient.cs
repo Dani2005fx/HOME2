@@ -66,7 +66,7 @@ namespace CrudEjemplo.Clases
          
         }
 
-        //El metodo seleccionar se ejecuta al hacer doble click en una de las celdas de usuarios 
+        //El metodo seleccionar se ejecuta al hacer doble click en una de las celdas de clientes 
         private void dgvTotalUsuarios_CellMouseDoubleClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             // Este objeto sabe cómo manejar la información de usuarios

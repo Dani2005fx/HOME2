@@ -11,7 +11,7 @@ namespace CrudEjemplo.Clases
 {
     internal class CClient
     {
-        //crear un metodo pra mostrar los usuarios 
+        //crear un metodo pra mostrar los clientes
         public void mostrarClientes(DataGridView tablaClientes)
         {
             //el try catch servira para ver si hay errores
@@ -66,18 +66,18 @@ namespace CrudEjemplo.Clases
 
         //crear un metodo selecionar
         //método tomara los datos de una fila seleccionada en una tabla 
-        public void seleccionarClientes(DataGridView tablaUsuarios, TextBox id, TextBox nombre, TextBox apellido, TextBox mail, TextBox telefono)
+        public void seleccionarClientes(DataGridView tablaClientes, TextBox id, TextBox nombre, TextBox apellido, TextBox mail, TextBox telefono)
         {
             //el try catch servira para ver si hay errores
             try
             {
                 // Toma el valor de la celda 0 (primera columna) de la fila seleccionada y lo muestra en la caja de texto del ID
-                id.Text = tablaUsuarios.CurrentRow.Cells[0].Value.ToString();
+                id.Text = tablaClientes.CurrentRow.Cells[0].Value.ToString();
                 //y los mismo con las siguientes
-                nombre.Text = tablaUsuarios.CurrentRow.Cells[1].Value.ToString();
-                apellido.Text = tablaUsuarios.CurrentRow.Cells[2].Value.ToString();
-                mail.Text = tablaUsuarios.CurrentRow.Cells[3].Value.ToString();
-                telefono.Text = tablaUsuarios.CurrentRow.Cells[4].Value.ToString();
+                nombre.Text = tablaClientes.CurrentRow.Cells[1].Value.ToString();
+                apellido.Text = tablaClientes.CurrentRow.Cells[2].Value.ToString();
+                mail.Text = tablaClientes.CurrentRow.Cells[3].Value.ToString();
+                telefono.Text = tablaClientes.CurrentRow.Cells[4].Value.ToString();
 
 
             }
@@ -87,7 +87,7 @@ namespace CrudEjemplo.Clases
             }
         }
 
-        //crear un metodo pra modificar los usuarios 
+        //crear un metodo pra modificar los clientes 
         public void modificarClientes(TextBox Id, TextBox nombre, TextBox apellido, TextBox mail, TextBox telefono)
         {
             //el try catch servira para ver si hay errores
