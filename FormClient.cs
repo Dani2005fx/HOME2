@@ -98,5 +98,10 @@ namespace CrudEjemplo.Clases
         {
 
         }
+
+        private void txtTelefono_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

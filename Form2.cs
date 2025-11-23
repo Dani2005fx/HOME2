@@ -67,5 +67,14 @@ namespace CrudEjemplo
             llamar.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            
+            FormProct llamar = new FormProct();
+            llamar.Show();
+            this.Hide();
+
+        }
     }
 }
