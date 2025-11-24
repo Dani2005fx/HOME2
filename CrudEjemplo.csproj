@@ -115,7 +115,15 @@
   <ItemGroup>
     <Compile Include="Clases\CClient.cs" />
     <Compile Include="Clases\CConexion.cs" />
+    <Compile Include="Clases\CDocVentas.cs" />
     <Compile Include="Clases\CProducts.cs" />
+    <Compile Include="Clases\CVentas.cs" />
+    <Compile Include="DocVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DocVentas.Designer.cs">
+      <DependentUpon>DocVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -140,8 +148,17 @@
     <Compile Include="FormProct.Designer.cs">
       <DependentUpon>FormProct.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVentas.Designer.cs">
+      <DependentUpon>FormVentas.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DocVentas.resx">
+      <DependentUpon>DocVentas.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -153,6 +170,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormProct.resx">
       <DependentUpon>FormProct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVentas.resx">
+      <DependentUpon>FormVentas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
